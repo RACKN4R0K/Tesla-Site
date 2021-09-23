@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html,body{
+    height: 100%;
+}
+.impact{
+    background-color: #ddd;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+.center{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+section{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(imagem.jpg);
+    background-position: center;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    position: relative;
+}
+.logo img{
+    width: 130px;
+    padding-top: 12%;
+}
+.menu{margin-top: 15px;}
+
+.menu a{
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    text-decoration: bolder;
+    transition:  0.3s;
+    padding: 3px 5px;
+}
+.menu a:hover{
+    border-radius: 5px;
+    background-color: rgba(200, 200, 200, 0.4);
+}
+.menu1{margin-top: 15px;}
+
+.menu1 a{
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    text-decoration: bolder;
+    transition:  0.3s;
+    padding: 3px 5px;
+}
+.menu1 a:hover{
+    border-radius: 5px;
+    background-color: rgba(200, 200, 200, 0.4);
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    margin-top: 10%;
+    color: black;
+    font-size: 45px;
+    letter-spacing: 1.2px;
+}
+.title p{
+    color: black;
+    margin-top: 10px;
+}
+.title p a{
+    color: black;
+    text-decoration: black;
+}
+.btn{
+   position: absolute;
+   bottom: 40px;
+   width: 100%;
+   left: 0;
+   text-align: center;
+}
+.btn a{
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
